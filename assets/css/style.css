@@ -1,0 +1,292 @@
+/* ==========================================================================
+   Home page styles
+   ========================================================================== */
+
+.home-logo {
+  margin: 0 auto;
+}
+
+.btn-signup {
+  color: #FFF;
+  background: #48ab9d;
+}
+
+.btn-signup:hover {
+  color: #FFF;
+  background: #40998d;
+}
+
+.btn-signup:hover {
+  color: #fff;
+  box-shadow: none;
+}
+
+.modal-home-content {
+  text-align: center;
+  background-color: #F4F5F9;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.modal-home-header h4 {
+  font-size: 30px;
+  line-height: 1.3em;
+  color: #303339;
+}
+
+.modal-home-body{
+  padding: 5px 40px;
+}
+
+.form-control:focus {
+  border: solid 1px #EF4035;
+}
+
+.btn-modal {
+  padding: 5px 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 10px;
+  background-color: #EF4035;
+}
+
+.btn-modal:hover,
+.btn-modal:focus {
+  background-color: #d7392f;
+  color: #FFF;
+}
+
+.modal-home-footer{
+  text-align: center;
+}
+
+.modal-home-description {
+  padding: 5px;
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #3e4247;
+}
+
+.modal-home-legalAgreement{
+  font-size: 14px;
+}
+
+/* ==========================================================================
+   Feeds page styles
+   ========================================================================== */
+
+.navbar-brand>img {
+  max-height: 80px;
+}
+
+.caret:before {
+  font-size: 8px;
+}
+
+.profile-img{
+  margin-top: 5px;
+  margin-right: 5px;
+  float: left;
+  background: url(../img/pascal.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
+  background-size: auto 100%; /* Interchange this value depending on prefering width vs. height */
+  width: 30px;
+  height: 30px;
+}
+
+.widget-search {
+  margin: 20px 0;
+}
+
+.btn-feeds-filter {
+  text-align: left;
+  padding-left: 15px;
+  color: #777777;
+  text-transform: none;
+}
+
+.btn-feeds-filter:hover{
+  background-color: #FFF;
+}
+
+.btn-feeds-filter:focus,
+.btn-feeds-filter:active,
+.btn-feeds-filter.active,
+.btn-feeds-filter.active:focus,
+.btn-feeds-filter.active:hover
+ {
+  box-shadow:none;
+  border-left: solid 2px #EF4035;
+  color: #EF4035;
+  font-weight: bold;
+  background-color: #FFF;
+}
+
+.feeds-sort,
+.feeds-filter {
+  margin-bottom: 20px;
+}
+
+.btn-feeds-sort {
+  padding: 8px;
+  color: #777777;
+  text-transform: none;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  width: 100px;
+}
+
+.btn-feeds-sort:hover{
+  background-color: #FFF;
+}
+
+.btn-feeds-sort:focus,
+.btn-feeds-sort:active,
+.btn-feeds-sort.active,
+.btn-feeds-sort.active:focus,
+.btn-feeds-filter.active:hover
+ {
+  box-shadow:none;
+  border-bottom: solid 2px #40998d;
+  color: #40998d;
+  font-weight: bold;
+  background-color: #FFF;
+}
+
+.media {
+  background-color: #FAFAFA;
+  border-right: solid 3px #EF4035;
+  margin: 30px 10px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.media-left {
+  max-width: 200px;
+  height: 130px;
+  border: solid 2px #FFF;
+  padding: 0px;
+}
+
+.media-left img{
+  max-width: 200px;
+  max-height: 93px;
+}
+.media-body {
+  width: auto;
+  height: 130px;
+  padding-left: 5px;
+  margin-right: 0px;
+}
+
+time.event-date {
+  text-overflow: ellipsis;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px 20px 0 0
+}
+
+.event-title {
+  text-overflow: ellipsis;
+  color: #000;
+  font-size: 16px;
+  line-height: 30px;
+  max-height: 40px;
+  font-weight: 700;
+  letter-spacing: 0;
+  padding: 10px 0;
+  margin-bottom: 5px;
+}
+
+.event-footer {
+  line-height: 36px;
+  border-top: solid 2px #FFF;
+}
+
+.event-footer-actions .btn-group {
+  float: right;
+}
+
+.event-footer-nbStudent {
+  max-width: 200px;
+  text-align: center;
+  height: 36px;
+  padding-top: 5px;
+}
+
+
+.btn-success {
+    border: 5;
+    border-radius: 5px;
+    width: 10px;
+    padding: 5px 25px 5px 10px;
+    margin: 5px 0px;
+    background-color: #FAFAFA;
+    border: none;
+}
+
+.glyphicon {
+  color: gray;
+}
+
+.btn-success:hover,
+.btn-success:focus {
+  background-color: #FFF;
+}
+
+.blog-post {
+  margin: 10px;
+  background-color: #FAFAFA;
+  border-right: solid 3px #48ab9d;
+}
+
+.writer-wrapper {
+  padding: 10px;
+}
+.writer-pic>img {
+    height: 50px;
+    width: 50px;
+}
+
+.writer-pic {
+  text-align: center;
+  height: 50px;
+  width: 80px;
+}
+
+.writer-info{
+  padding-top: 10px;
+}
+
+.qc-actions {
+    float: right;
+}
+
+.page-header {
+    background: url(../img/mcgill.jpg);
+}
+
+.page-header .page-header-inner{
+  position: relative;
+  text-transform: none;
+}
+
+footer img {
+    max-width: 250px;
+}
+
+footer {
+  padding: 10px;
+  border-top: solid 1px #333333;
+}
+
+#pagination {
+    padding: 50px;
+}
+
+.post-title {
+    font-size: 16px;
+  }
